@@ -1,0 +1,18 @@
+{
+  "name": "book-store_microservices",
+  "version": "1.0.0",
+  "description": "Node Microservices with Docker and Postgres",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ochogwu Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
+  }
+}
